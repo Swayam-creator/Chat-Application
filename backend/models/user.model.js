@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema({
         required:true,
         unique:true,
     },
-    emai:{
+    email:{
         type:String,
         required:true,
         unique:true,
@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
         minlength:6,
-        maxlength:10,
+        
         
     },
     gender:{
